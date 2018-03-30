@@ -1,0 +1,32 @@
+{
+  "require": {
+    "prefix": "require",
+    "body": [
+      "const $1 = require('$1')"
+    ],
+    "description": "require"
+  },
+  "map": {
+    "prefix": "map",
+    "body": [
+      "map(${id} => ${id});"
+    ],
+    "description": "ES6 map"
+  },
+  "filter": {
+    "prefix": "filter",
+    "body": [
+      "filter(${id} => ${id});"
+    ],
+    "description": "ES6 filter"
+  },
+  "async": {
+    "prefix": "async",
+    "body": [
+      "async ($1) => {",
+      "\t$2",
+      "};",
+    ],
+    "description": "ES8 async/await"
+  },
+}
