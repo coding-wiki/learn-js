@@ -15,7 +15,7 @@ type Props = {
   post: Post,
 }
 
-class Button<Props, State> {
+class Post<Props, State> {
   miscRef: any; // Flow class property
 
   constructor(props) {
@@ -28,7 +28,7 @@ class Button<Props, State> {
     const { post } = this.props;
   
     return (
-      <Post post={post} />
+      <PostItem post={post} />
     );
   }
  }
