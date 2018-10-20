@@ -15,10 +15,11 @@ https://facebook.github.io/react/
 
   ```bash
     npm init -y
-    npm install -s react react-dom babel-polyfill webpack webpack-dev-server html-webpack-plugin path  # install webpack, dev server and path
+    // @0.23.0 @1.0.0 babel-loader@8.0.2
+    npm install -s react react-dom webpack@4 webpack-cli@3 webpack-dev-server@3 style-loader css-loader babel-loader  # install webpack, dev server and path
     touch webpack.config.js # create webpack config
 
-    npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react # setup babel
+    npm install --save-dev @babel/core@7 @babel/cli@7 @babel/preset-env@7 @babel/preset-react@7 # setup babel
 
     touch .babelrc  # create babel config
 
